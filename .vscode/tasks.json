@@ -11,7 +11,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${workspaceRoot}/build/${fileBasenameNoExtension}"
       ],
       "options": {
         "cwd": "${fileDirname}"
